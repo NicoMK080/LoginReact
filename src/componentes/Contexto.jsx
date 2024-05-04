@@ -30,7 +30,7 @@ export function Contexto(props) {
       console.log("Llegue a la funcion enviacredencialesAWS", usuario)
                   
       let salida="nada"
-      await fetch('https://t3uwfoaf28.execute-api.us-east-1.amazonaws.com/llave', {
+      await fetch(URL, {
         method: 'POST',
         // headers: {'Content-Type':'application/json'},}}
         body: JSON.stringify({
