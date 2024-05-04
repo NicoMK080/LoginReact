@@ -26,11 +26,13 @@ export function Contexto(props) {
      console.log("Esto es a ", a)
     }
 
+    const URL= import.meta.env.VITE_URL || "http://localhost:5173"
+
     async function enviacredencialesAWS(usuario, clave){
       console.log("Llegue a la funcion enviacredencialesAWS", usuario)
                   
       let salida="nada"
-      await fetch(URL, {
+      await fetch(`${URL}`, {
         method: 'POST',
         // headers: {'Content-Type':'application/json'},}}
         body: JSON.stringify({
