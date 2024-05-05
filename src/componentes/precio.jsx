@@ -29,7 +29,7 @@ export function Precio(valor) {
         <button className="botonesCompra" onClick={()=>{
             sube(valor.a)
         }}>
-                {valor.a}
+                ${valor.a}
         </button>
     </div>)
 }

@@ -19,7 +19,7 @@ export function Compo2() {
             <div className='enCarrito'>
 
                 <div className='MenuComprar'>
-                    <h1 className='titulo'>El Total es {conta}</h1>
+                    <h1 className='titulo'>El Total es ${conta}</h1>
 
                     { conta == 0 ? <></> :
                         <NavLink to= '/comprar'>

@@ -15,7 +15,7 @@ export function Pay(valor) {
         ? 
 
         <div className="fondoPagar">
-            <h5 className="tituloPagar">El total es {conta}</h5>
+            <h5 className="tituloPagar">El total es ${conta}</h5>
             <img className="imagenPagar"  src={m} alt="" />
             <button className="pagar" onClick={()=>{recibeCompra(14)}}>
                 Pagar 

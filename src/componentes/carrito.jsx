@@ -29,7 +29,7 @@ export function enCompra(valor) {
             <div className="contenedorImagenes">
                 <img className="imagenesCarrito" src={m} alt="" />
             </div>
-            <button className='precio'>{valor}</button>
+            <button className='precio'>${valor}</button>
             <button className='borrarProducto' onClick={()=>{
                  borrar(valor)
                 }}>
