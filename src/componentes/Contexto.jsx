@@ -26,7 +26,7 @@ export function Contexto(props) {
      console.log("Esto es a ", a)
     }
 
-    const URL= import.meta.env.VITE_URL || "http://localhost:5173"
+    const URL= import.meta.env.VITE_URL || "https://t3uwfoaf28.execute-api.us-east-1.amazonaws.com/llave"
 
     async function enviacredencialesAWS(usuario, clave){
       console.log("Llegue a la funcion enviacredencialesAWS", usuario)
