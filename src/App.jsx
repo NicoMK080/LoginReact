@@ -4,6 +4,7 @@ import { Compo1 } from './componentes/compo1'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { LogIn } from './componentes/login'
 import { Pay } from './componentes/pagar'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

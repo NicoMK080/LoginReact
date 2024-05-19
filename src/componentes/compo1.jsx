@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom'
 import { Compo2 } from './compo2'
 import {useContext} from 'react' //cambio 2
 import { NombreContexto } from './Contexto'//cambio
+import { Menu } from './menu'
 
 export function Compo1() {
 
@@ -15,10 +16,8 @@ export function Compo1() {
         ? 
 
         <div>
+            <Menu/>
             <Compo2/>
-              <NavLink to= '/rutaMarco'>
-                <button> Voy a Marco</button>
-              </NavLink>
         </div>
 
         : 
