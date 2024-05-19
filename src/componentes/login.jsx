@@ -32,7 +32,7 @@ export function LogIn() {
             <input className={'inputContainer'}
               type="text"
               name="username"
-              placeholder='Ingrese su username*'
+              placeholder='Ingrese tu username weon'
               onChange={handleChange}
             />
         </label>
