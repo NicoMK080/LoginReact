@@ -41,7 +41,7 @@ export function LogIn() {
             <input className={'inputContainer'}
               type="password"
               name="password1"
-              placeholder='1234'
+              placeholder='ingrese su password'
               onChange={handleChange}
             />
         </label>
